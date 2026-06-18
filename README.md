@@ -24,3 +24,5 @@ python3 main.py
 ## Запуск тестов
 
 python3 -m unittest tests/test_project.py
+
+Последнее обновление: июнь 2026
