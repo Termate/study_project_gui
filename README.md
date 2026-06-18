@@ -1,15 +1,26 @@
-# Study Project
+# Study Project GUI
+
+## Описание
+
+Графический файловый менеджер на Python с использованием библиотеки Flet.
+
+## Установка зависимостей
+
+python3 -m pip install -r requirements.txt
 
 ## Запуск
 
-python3 main.py <command> [arguments]
+python3 main.py
 
-##Примеры команд
+## Возможности
 
-python3 main.py copy from_file to_file
-python3 main.py move from_path to_path
-python3 main.py delete path
-python3 main.py rename old_name new_name
-python3 main.py mkdir folder_name
-python3 main.py list path
-python3 main.py find filename path
+- копирование файлов;
+- удаление файлов и папок;
+- подсчёт файлов в папке;
+- поиск файлов по регулярному выражению;
+- добавление даты создания к имени файла;
+- анализ размеров файлов и папок.
+
+## Запуск тестов
+
+python3 -m unittest tests/test_project.py
